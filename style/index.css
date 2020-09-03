@@ -10,6 +10,7 @@ body{
     font-size: 1.8rem;
     line-height: 1.5;
     background: #c2bcbc;
+    font-family: 'Syne', sans-serif;
 }
 
 
@@ -20,7 +21,7 @@ nav{
 }
 nav a{
     text-decoration: none;
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 5px;
     margin: 0;
     display: inline-block;
@@ -28,6 +29,11 @@ nav a{
 }
 h1{
     margin-top: 4%;
+    font-size: 3rem;
+    font-family: 'Gayathri', sans-serif;
+}
+h2{
+    font-size: 2rem;
 }
 header h1, h2, p{
     text-align: center;
@@ -38,12 +44,26 @@ header p{
     align-items: center;
 }
 
-/* hero image styling */
+/* keyboard image styling */
+.kb-image{
+    background-image: url('https://images.unsplash.com/photo-1526920929362-5b26677c148c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" alt="close up of a colorful keyboard');
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 2%;
+}
 
 
-
-/* project panel styling */
-
+/* project panels styling */
+.panels img{
+    border: 5px solid red;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
 
 
 /* footer styling */
@@ -51,9 +71,8 @@ header p{
 footer button{
     border: 0px;
     padding: 1%;
+    font-family: 'Syne', sans-serif;
 }
-
-
 
 
 
