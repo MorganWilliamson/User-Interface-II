@@ -60,24 +60,41 @@ header p{
 /* project panels styling */
 .panels img{
     border: 5px solid red;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
+    margin: 2%;
+    
+}
+.panels{
+    display: inline-flex;
+}
+.panels p{
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
 }
 
 
 /* footer styling */
 
-footer button{
+button{
     border: 0px;
-    padding: 1%;
+    padding: 8%;
+    margin-top: 30%;
     font-family: 'Syne', sans-serif;
 }
 
+button:hover{
+    background: black;
+    color: white;
+    border: 2px dashed white;
+}
 
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-/* temp styling, remember to delete */
-img {
-    max-height: 10%;
-    max-width: 10%;
+footer{
+    background: black;
+    height: 15vh;
 }
