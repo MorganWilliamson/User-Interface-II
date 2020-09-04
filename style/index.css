@@ -9,7 +9,8 @@ html{
 body{
     font-size: 1.8rem;
     line-height: 1.5;
-    background: #c2bcbc;
+    background: rgb(32,102,34);
+    background: linear-gradient(36deg, rgba(32,102,34,1) 0%, rgba(171,213,130,1) 50%, rgba(98,198,139,1) 100%); 
     font-family: 'Syne', sans-serif;
 }
 
@@ -44,9 +45,12 @@ header h1, h2, p{
     text-align: center;
 }
 header p{
-    margin-bottom: 3%;
+    margin: 3% 0;
+    margin-left: 10%;
     display: flex;
     align-items: center;
+    text-align: center;
+    width: 80%;
 }
 
 /* keyboard image styling */
@@ -109,4 +113,17 @@ button:hover{
 footer{
     background: black;
     height: 15vh;
+}
+.socmed{
+    display: flex;
+    justify-content: space-evenly;
+}
+.socmed a{
+    text-decoration: none;
+    margin-top: 1%;
+    color: white;
+}
+
+.socmed a:hover{
+    border: 2px dashed white;
 }
