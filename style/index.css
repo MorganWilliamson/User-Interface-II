@@ -1,1 +1,179 @@
-/* Add CSS styling here */
+/* general page styling */
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html{
+    font-size: 62.5%
+}
+body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    background: rgb(32,102,34);
+    background: linear-gradient(36deg, rgba(32,102,34,1) 0%, rgba(171,213,130,1) 50%, rgba(98,198,139,1) 100%); 
+    font-family: 'Syne', sans-serif;
+}
+
+
+/* header styling */
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0;
+    display: inline-block;
+    color: white;
+}
+nav a:hover{
+    border: 1px solid black;
+    color: #4a4a4a;
+    background: white;
+}
+h1{
+    margin-top: 4%;
+    font-size: 3rem;
+    font-family: 'Gayathri', sans-serif;
+}
+h2{
+    font-size: 2rem;
+}
+header h1, h2, p{
+    text-align: center;
+}
+header p{
+    margin: 3% 0;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+
+/* keyboard image styling */
+.kb-image{
+    background-image: url('https://images.unsplash.com/photo-1526920929362-5b26677c148c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" alt="close up of a colorful keyboard');
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 2%;
+}
+
+
+/* project panels styling */
+.panels img{
+    border: 3px solid black;
+    margin: 2%;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.panels img:hover{
+    box-shadow: 8px 8px 5px #4a4a4a;
+}
+.panels{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.panels p{
+    text-align: center;
+    width: 60%;
+    margin-top: 10%;
+}
+
+
+/* footer styling */
+
+button{
+    border: 0px;
+    padding: 8%;
+    margin-top: 30%;
+    font-family: 'Syne', sans-serif;
+}
+
+button:hover{
+    background: black;
+    color: white;
+    border: 2px dashed white;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+    background: black;
+    height: 15vh;
+}
+.socmed{
+    display: flex;
+    justify-content: space-evenly;
+}
+.socmed a{
+    text-decoration: none;
+    margin-top: 1%;
+    color: white;
+}
+
+.socmed a:hover{
+    border: 2px dashed white;
+}
+
+/* End of Desktop Styling, starting media queries below */
+
+/* Media query for tablets (800px) */
+
+@media (max-width: 800px){
+    section, header{
+        border: 10px solid transparent;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    nav a{
+        padding: 2%;
+        width: 30%;
+        text-align: center;
+    }
+    h2{   
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    .panels{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .panels img{
+        width: 46%;
+    }
+    .panels p{
+        width: 50%;
+        margin-left: 23%;
+        margin-bottom: 5%;
+        font-size: 2rem;
+    }
+}
+
+
+/* Media query for phones (500px) */
+
+@media (max-width: 500px){
+    .kb-image{
+        margin: 0 2%;
+    }
+
+}
