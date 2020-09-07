@@ -9,6 +9,7 @@ html{
 body{
     font-size: 1.8rem;
     line-height: 1.5;
+    color: #4f4f4f;
     background: rgb(32,102,34);
     background: linear-gradient(36deg, rgba(32,102,34,1) 0%, rgba(171,213,130,1) 50%, rgba(98,198,139,1) 100%); 
     font-family: 'Syne', sans-serif;
@@ -30,7 +31,7 @@ nav a{
 }
 nav a:hover{
     border: 1px solid black;
-    color: black;
+    color: #4a4a4a;
     background: white;
 }
 h1{
@@ -171,6 +172,8 @@ footer{
 /* Media query for phones (500px) */
 
 @media (max-width: 500px){
-
+    .kb-image{
+        margin: 0 2%;
+    }
 
 }
