@@ -151,6 +151,20 @@ footer{
         margin-top: 2%;
         margin-bottom: 0%;
     }
+    .panels{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .panels img{
+        width: 46%;
+    }
+    .panels p{
+        width: 50%;
+        margin-left: 23%;
+        margin-bottom: 5%;
+        font-size: 2rem;
+    }
 }
 
 
